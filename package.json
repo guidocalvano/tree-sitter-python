@@ -10,7 +10,10 @@
   "author": "Max Brunsfeld",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.15.0"
+    "electron": "^19.1.4",
+    "electron-rebuild": "^3.2.9",
+    "nan": "github:tec27/nan#remove_accessor_signature",
+    "tree-sitter": "^0.20.1"
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.20.1"
